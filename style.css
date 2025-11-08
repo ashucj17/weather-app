@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.input input{
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-style: 16px;
+    width: 200px;
+}
+
+.input button{
+    padding: 10px;
+    background: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.weather-details{
+    height: 500px;
+    border: 2px solid #333;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius:  5px;
+
+}
